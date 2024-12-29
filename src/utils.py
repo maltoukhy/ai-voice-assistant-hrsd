@@ -12,6 +12,9 @@ from langchain.chains.llm import LLMChain
 from langchain_core.prompts import PromptTemplate
 from langchain_groq import ChatGroq
 
+from llama_parse import LlamaParse
+from llama_index.core import SimpleDirectoryReader
+
 from gtts import gTTS
 import pygame
 
@@ -20,6 +23,10 @@ load_dotenv()
 
 groq_api_key = os.getenv("GROQ_API_KEY")
 
+
+def parse_documents(filepath):
+    
+    pass
 
 def is_silence(data, max_amplitude_threshold=3000):
     """Check if audio data contains silence."""

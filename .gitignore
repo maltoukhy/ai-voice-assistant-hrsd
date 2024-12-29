@@ -1,3 +1,4 @@
 .env
 *.wav
 .venv
+knowledge_base
