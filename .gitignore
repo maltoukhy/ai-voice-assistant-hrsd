@@ -2,3 +2,4 @@
 *.wav
 .venv
 knowledge_base
+./src/test.py
